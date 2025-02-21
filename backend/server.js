@@ -18,7 +18,7 @@ dotenv.config()
 const app = express()
 const PORT = process.env.PORT || 5000
 
-app.use(express.json()) // Parse req.body
+app.use(express.json({ limit: "10mb" })) // Parse req.body
 app.use(cookieParser()) // Parse req.cookie
 
 app.use("/api/auth", authRoutes)
