@@ -48,7 +48,7 @@ export const removeAllFromCart = async (req, res) => {
             user.cartItems = user.cartItems.filter(item => item.id !== productId)
         }
 
-        await user.save
+        await user.save()
         res.json(user.cartItems)
     } catch (error) {
         console.log(`Error in removeAllFromCart controller: ${error.message}`)
