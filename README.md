@@ -10,7 +10,7 @@ A full-stack E-commerce app built with the **MERN stack** (MongoDB, Express.js, 
 
 ## Demo
 
-🔗 **Live App**: [E-commerce app](https://real-time-chat-app-fqbd.onrender.com)
+🔗 **Live App**: [E-commerce app](https://e-commerce-store-mr97.onrender.com)
 - Please wait 50 seconds for the server to turn on instance.
 - Test accounts:
 - Admin email: john@gmail.com
